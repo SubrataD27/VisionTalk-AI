@@ -6,6 +6,8 @@
     <title>AI Visual Chatbot | Advanced Image Analysis</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <style>
         :root {
@@ -501,32 +503,49 @@
     </div>
     
     <!-- Footer -->
-    <footer class="footer mt-5" id="about">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <h5 class="text-white mb-3">About This Project</h5>
-                    <p>This AI Visual Chatbot is a final year major project that demonstrates the integration of computer vision and natural language processing technologies to create an intelligent system capable of understanding and discussing visual content.</p>
-                </div>
-                <div class="col-md-3">
-                    <h5 class="text-white mb-3">Technologies</h5>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-arrow-right-short"></i> TensorFlow</li>
-                        <li><i class="bi bi-arrow-right-short"></i> PyTorch</li>
-                        <li><i class="bi bi-arrow-right-short"></i> Hugging Face</li>
-                        <li><i class="bi bi-arrow-right-short"></i> Flask</li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5 class="text-white mb-3">Developed By</h5>
-                    <p>Computer Science Department<br>2nd Year Project Team</p>
-                    <p>Team Mahakumbh</p>
-                </div>
+<footer class="footer bg-dark text-white pt-5 pb-4" id="about">
+    <div class="container">
+        <div class="row g-4">
+            <!-- About -->
+            <div class="col-md-6">
+                <h5 class="mb-3"><i class="bi bi-info-circle-fill me-2"></i>About This Project</h5>
+                <p>This AI Visual Chatbot is a final year major project that demonstrates the integration of computer vision and natural language processing technologies to create an intelligent system capable of understanding and discussing visual content.</p>
             </div>
-            <hr class="mt-4 mb-3" style="border-color: rgba(255,255,255,0.1);">
-            <p class="text-center mb-0">&copy; 2025 AI Visual Chatbot | All Rights Reserved</p>
+
+            <!-- Technologies -->
+            <div class="col-md-3">
+                <h5 class="mb-3"><i class="bi bi-cpu-fill me-2"></i>Technologies</h5>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-arrow-right-short"></i> TensorFlow</li>
+                    <li><i class="bi bi-arrow-right-short"></i> PyTorch</li>
+                    <li><i class="bi bi-arrow-right-short"></i> Hugging Face</li>
+                    <li><i class="bi bi-arrow-right-short"></i> Flask</li>
+                </ul>
+            </div>
+
+            <!-- Developed By -->
+            <div class="col-md-3">
+                <h5 class="mb-3"><i class="bi bi-person-circle me-2"></i>Developed By</h5>
+                <p>Computer Science Department<br>2nd Year Project Team</p>
+                <p><strong>Team Mahakumbh</strong></p>
+            </div>
         </div>
-    </footer>
+
+        <hr class="mt-4 mb-3" style="border-color: rgba(255,255,255,0.1);">
+
+        <div class="text-center">
+            <p class="mb-1">
+                 Made with <i class="bi bi-heart-fill text-danger"></i> by <strong>Subrata</strong>
+            </p>
+            <a href="https://github.com/SubrataD27" target="_blank" class="text-white text-decoration-none">
+                <i class="bi bi-github" style="font-size: 1.5rem;"></i> GitHub
+            </a>
+        </div>
+
+        <p class="text-center mt-3 mb-0" style="font-size: 0.9rem;">&copy; 2025 AI Visual Chatbot | All Rights Reserved</p>
+    </div>
+</footer>
+
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
